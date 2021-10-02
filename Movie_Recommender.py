@@ -295,6 +295,12 @@ def welcome():
 # Function that would be executed when the above URL is hit.
 def show_db():
     return render_template("movies_database.html")
+
+# Routing to the Jupyter (html file) 
+@app.route('/jupyter', methods=['GET'])
+# Function that would be executed when the above URL is hit.
+def jupyter():
+    return render_template("Content Based Movie Recommender System.html")
     
 # Recommender using Swagger
 @app.route('/movie_recommender',methods=['POST','GET'])
