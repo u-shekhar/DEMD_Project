@@ -303,7 +303,7 @@ def jupyter():
     return render_template("Content Based Movie Recommender System.html")
     
 # Recommender using Swagger
-@app.route('/movie_recommender',methods=['POST','GET'])
+@app.route('/movie_recommender',methods=['GET'])
 def get_req_parameters():
     """ Input User ratings for a few movies
     ---
@@ -351,7 +351,7 @@ def get_req_parameters():
 
     responses:
        200:
-            description: Result is
+            description: Recommended Movies are
             content:
               application/json:
                 
