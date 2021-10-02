@@ -288,7 +288,7 @@ def movie_recommender(title_1,rating_1,title_2,rating_2,title_3,rating_3,title_4
 @app.route('/', methods=['GET'])
 # Function that would be executed when the above URL is hit.
 def welcome():
-    return render_template("index.html")
+    return render_template("movie_list.html")
 
 # Defining using Swagger
 @app.route('/movie_recommender',methods=['POST','GET'])
