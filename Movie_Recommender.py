@@ -1,5 +1,6 @@
 # Dataframe manipulation library
 import pandas as pd
+import requests
 
 # To supress warnings
 import warnings
@@ -17,7 +18,10 @@ Swagger(app)
 
 
 # Importing required files
-movies_df = pd.read_csv(r'C:\Users\ujjwa\Desktop\Python\DEMD\DEMD_Project\movies.csv')
+# movies_df = pd.read_csv(r'C:\Users\ujjwa\Desktop\Python\DEMD\DEMD_Project\movies.csv')
+url = "https://raw.githubusercontent.com/u-shekhar/Data/main/movies.csv"
+movies_df=pd.read_csv(url)
+
 
 # Checking the movies dataframe
 # movies_df.head()
