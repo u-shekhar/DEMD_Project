@@ -3,8 +3,8 @@ import pandas as pd
 import requests
 
 # To supress warnings
-import warnings
-warnings.filterwarnings('ignore')
+#import warnings
+#warnings.filterwarnings('ignore')
 
 # Importing the required package
 from flask import Flask, render_template, request
