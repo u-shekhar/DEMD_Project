@@ -17,7 +17,7 @@ Swagger(app)
 
 
 # Importing required files
-movies_df = pd.read_csv(r'C:\Users\ujjwa\Desktop\Python\DEMD\Project\movies.csv')
+movies_df = pd.read_csv(r'C:\Users\ujjwa\Desktop\Python\DEMD\DEMD_Project\movies.csv')
 
 # Checking the movies dataframe
 # movies_df.head()
