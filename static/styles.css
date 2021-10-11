@@ -9,7 +9,7 @@ html{
 	position: relative;
 	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
 	background-size: 500% 500%;
-	animation: change-gradient 10s ease-in-out infinite;
+	animation: change-gradient 5s ease-in-out infinite;
 }
 @keyframes change-gradient {
 	0%{
@@ -40,6 +40,6 @@ html{
     font-style: italic;
     font-size: 14px;
     margin: -5px 0 0;
-	text-align: left;
+	text-align: center;
 }
 
