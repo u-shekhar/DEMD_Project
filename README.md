@@ -3,9 +3,10 @@ DEMD End Term Project
 
 - Deployed on Heroku using github connection. 
 - Used Swagger for interface
+-     https://movie-recommender-ushekhar.herokuapp.com/
 
 - Also deployed on AWS-EC2 instance. 
--       P.S: The link to the instance changes everytime the instance is initiated and hence has to be accessed accordingly.
+- P.S: For AWS-EC2, the link to the instance changes everytime the instance is initiated and hence has to be accessed accordingly.
 
 # Movie Recommendation System
 
