@@ -1,9 +1,8 @@
 # DEMD_Project
 DEMD End Term Project
 
-- Deployed on Heroku using github connection. 
+- Deployed on Heroku using github connection. Click here to go to the application <a href="https://movie-recommender-ushekhar.herokuapp.com/" target="_blank">Movie Recommender</a> 
 - Used Swagger for interface
-<a href="https://movie-recommender-ushekhar.herokuapp.com/" target="_blank">Movie Recommender</a>
 
 - Also deployed on AWS-EC2 instance. 
 - P.S: For AWS-EC2, the link to the instance changes everytime the instance is initiated and hence has to be accessed accordingly.
