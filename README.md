@@ -12,6 +12,8 @@ DEMD End Term Project
 ## Objective :
 To recommend movies to the user based on reviews for previously watched movies.
 
+### Data Source : <a href="https://raw.githubusercontent.com/u-shekhar/Data/main/movies.csv" target="_blank" rel="noopener noreferrer">Movies Database</a>
+
 ## Description : 
 This is an implementation of content based recommender system for movies, considering only one aspect of it, the genres. 
 
